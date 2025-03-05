@@ -21,3 +21,9 @@ Fluent Bit is a high-performance, lightweight log, metrics, and traces processor
    ```bash
    sudo apt install fluent-bit
    ```
+
+
+## Configuration for ingesting logs from wazuh to graylog
+ - Note: To achieve this goal install fluent-bit on wazuh server
+ - goto /etc/fluent-bit/
+ - Copy the [fluent-bit.conf](https://github.com/effaaykhan/Fluent-bit/blob/main/fluent-bit.conf) and place it in /etc/fluent-bit directory in the wazuh server
