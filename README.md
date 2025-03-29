@@ -1,6 +1,14 @@
 # Fluent-bit
 Fluent Bit is a high-performance, lightweight log, metrics, and traces processor and forwarder designed for various operating systems, including Linux, Windows, MacOS, and BSD
-
+# SINGLE LINE INSTALLATION
+- ```
+  curl https://raw.githubusercontent.com/fluent/fluent-bit/master/install.sh | sh
+  ```
+- ```
+  systemctl daemon-reload
+  systemctl start fluent-bit
+  ```
+# SERVER GPG KEY
 ## Step-1: Add Server GPG Key 
 - The fist step is to add the server GPG key to your keyring to ensure you can get the correct signed packages.
    ```bash
